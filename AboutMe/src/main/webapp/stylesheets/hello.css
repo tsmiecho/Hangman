@@ -1,47 +1,71 @@
 body {
-	font-family: Verdana, Helvetica, sans-serif;
-	background-color: #e7e7e7;
-	line-height: 180%;
-	color: #2c2525;
+	background-color: #000000;
+	color: lightgray;
+	font-size: 28px;
+	font-family: 'Inconsolata';
 }
 
-a {
-	text-decoration: none;
+#content{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-table {
-	border-collapse: collapse;
-	color: #2c2525;
-	width: 100%;
-	line-height: 160%;
-}
-
-td {
-	padding-left: 4%;
-	padding-right: 4%;
-}
-
-.main-title {
-	text-indent: 5vw;
-	line-height: 250%;
-}
-
-.title {
-	padding-left: 0;
-	padding-right: 0;
-	line-height: 300%;
+#password{
+	width: 1000px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	text-align: center;
-	width: 100%;
-	background-color: #d0d0d0;
+	font-size: 48px;
+	min-height: 60px;
 }
 
-.header {
-	position: fixed;
-	width: 100%;
-	height: 15%;
-	top: 0;
-	right: 0;
-	bottom: auto;
-	left: 0;
-	background-color: #e5e5e5;
+#graphic{
+	float: left;
+	width: 500px;
+	text-align: center;
+	min-height: 280px;
+}
+
+#alphabet{
+	float: left;
+	width: 500px;
+	text-align: center;
+	min-height: 280px;
+}
+/*
+	cursor: pointer; daje ze kursor pokaze ze da sie to kliknac, a radius zaokragla
+*/
+.letter{
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	border: 3px solid gray;
+	float: left;
+	cursor: pointer;
+	border-radius: 15px;
+}
+/*
+	hover czyli co sie staje po najechaniu
+*/
+.letter:hover{
+	background-color: #222222;
+	color: white;
+	border: 3px solid white;
+}
+
+.wrong{
+	background: #330000;
+	color: #C00000;
+	border: 3px solid #C00000;
+	cursor: default;
+}
+
+.correct{
+	background: #06091B;
+	color: #001355;
+	border: 3px solid #001355;
+	cursor: default;
 }
