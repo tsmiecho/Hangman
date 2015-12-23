@@ -33,6 +33,63 @@ body {
 	text-align: center;
 	min-height: 280px;
 }
+#left-button{
+	padding-top: 40px;
+	float: left;
+	width: 500px;
+	text-align: center;
+	min-height: 80px;
+}
+
+#right-button{
+	padding-top: 40px;
+	float: left;
+	width: 500px;
+	text-align: center;
+	min-height: 80px;
+}
+
+/*
+	wygenerowane przez http://www.bestcssbuttongenerator.com/
+*/
+.myButton {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fafafa), color-stop(1, #525252));
+	background:-moz-linear-gradient(top, #fafafa 5%, #525252 100%);
+	background:-webkit-linear-gradient(top, #fafafa 5%, #525252 100%);
+	background:-o-linear-gradient(top, #fafafa 5%, #525252 100%);
+	background:-ms-linear-gradient(top, #fafafa 5%, #525252 100%);
+	background:linear-gradient(to bottom, #fafafa 5%, #525252 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#525252',GradientType=0);
+	background-color:#fafafa;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	border:1px solid #fcfffc;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:23px;
+	padding:19px 50px;
+	text-decoration:none;
+	text-shadow:1px 1px 2px #171717;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #525252), color-stop(1, #fafafa));
+	background:-moz-linear-gradient(top, #525252 5%, #fafafa 100%);
+	background:-webkit-linear-gradient(top, #525252 5%, #fafafa 100%);
+	background:-o-linear-gradient(top, #525252 5%, #fafafa 100%);
+	background:-ms-linear-gradient(top, #525252 5%, #fafafa 100%);
+	background:linear-gradient(to bottom, #525252 5%, #fafafa 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#525252', endColorstr='#fafafa',GradientType=0);
+	background-color:#525252;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
 /*
 	cursor: pointer; daje ze kursor pokaze ze da sie to kliknac, a radius zaokragla
 */

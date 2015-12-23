@@ -11,6 +11,7 @@
     <properties>
         <appengine.app.version>2</appengine.app.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <appengine.target.version>1.9.17</appengine.target.version>
     </properties>
 
     <prerequisites>
@@ -20,10 +21,20 @@
     <dependencies>
         <!-- Compile/runtime dependencies -->
         <dependency>
-            <groupId>com.google.appengine</groupId>
-            <artifactId>appengine-api-1.0-sdk</artifactId>
-            <version>1.9.18</version>
-        </dependency>
+			<groupId>com.google.appengine</groupId>
+			<artifactId>appengine-api-1.0-sdk</artifactId>
+			<version>${appengine.target.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.appengine</groupId>
+			<artifactId>appengine-api-labs</artifactId>
+			<version>${appengine.target.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.appengine</groupId>
+			<artifactId>appengine-endpoints</artifactId>
+			<version>${appengine.target.version}</version>
+		</dependency>
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>

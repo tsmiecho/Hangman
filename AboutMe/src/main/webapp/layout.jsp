@@ -1,5 +1,4 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java"%>
-<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <html lang="pl">
 <head>
 	<meta charset="utf-8" />
@@ -16,7 +15,15 @@
 		</div>
 		<div id="alphabet"></div>
 		<div style="clear: both;"></div>
-		<button style="visibility: hidden" onclick="location.reload()">button</button>
+		
+		<div id="left-button">
+			<button class="myButton" onclick="location.reload();">Od nowa</button>
+		</div>
+		<div id="right-button">
+			<button id="l-guess" class="myButton" onclick="guess();">Zgaduję</button>
+		</div>
+		<div style="clear: both;"></div>
+		
 	</div>
 </body>
 </html>
