@@ -117,7 +117,7 @@ function check(id) {
 
 function getPassword() {
 	var xmlHttp = new XMLHttpRequest();
-	xmlHttp.open("GET", "http://localhost:8080/_ah/api/myApi/v1/createPassword", false);
+	xmlHttp.open("GET", "https://tsmiecho.appspot.com/_ah/api/myApi/v1/createPassword", false);
 	xmlHttp.send(null);
 	var json = JSON.parse(xmlHttp.responseText);
 	return json.password;
